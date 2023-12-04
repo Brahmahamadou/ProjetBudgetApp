@@ -1,0 +1,102 @@
+body{
+    background-color: #E9E8E9;
+    height: 100vh;
+}
+.titre {
+  align-items: baseline;
+  display: flex;
+}
+.balance {
+  margin-left: 2rem;
+}
+.expe {
+  margin-left: 3rem;
+}
+.valu {
+  margin-left: 10px;
+  padding: 5px;
+  border-width: medium;
+  border-color: rgb(226, 202, 19);
+  color: rgb(218, 184, 15);
+}
+.calculotor {
+  width: 400px;
+  height: 130px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(7, 155, 34, 0.825);
+  border-radius: 5px;
+}
+.calculotor p {
+  margin-left: 5px;
+}
+.buton_un {
+  width: 380px;
+  height: 25px;
+  margin-left: 5px;
+  border-color: rgba(7, 155, 34, 0.825);
+  background-color: white;
+}
+.calculate {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px;
+  border-color: rgba(7, 155, 34, 0.825);
+  color: rgba(7, 155, 34, 0.825);
+  border-radius: 5px;
+}
+.test {
+  margin-top: 10px;
+  width: 400px;
+  height: 210px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(228, 81, 81);
+  border-radius: 5px;
+}
+.buton_deux {
+  width: 380px;
+  height: 25px;
+  margin-left: 5px;
+  border-color: rgb(228, 81, 81);
+  background-color: white;
+}
+.buton_trois {
+  width: 380px;
+  height: 25px;
+  margin-left: 5px;
+  border-color: rgb(228, 81, 81);
+  background-color: white;
+}
+.expense {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px;
+  border-color: rgb(228, 81, 81);
+  color: rgb(228, 81, 81);
+}
+.test p {
+  margin-left: 5px;
+}
+.cont2 i {
+  font-size: 50px;
+   color: #2f93ac;
+}
+.buton_quatre {
+  margin-left: -2rem;
+  width: 380px;
+}
+.cont2{
+  margin-left: 4rem;
+  font-weight: bold;
+}
+.history hr{
+  height: 200px;
+  margin-left: -3rem;
+  margin-top: 3rem;
+}
+.cont2 hr{
+  color: #b3061d;
+  height: 400px;
+  
+}
