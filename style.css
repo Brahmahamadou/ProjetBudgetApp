@@ -1,0 +1,187 @@
+body{
+    background-color: #E9E8E9;
+    height: 100vh;
+}
+.titre {
+  display: flex;
+}
+.valu {
+  margin-left: 10px;
+  padding: 5px;
+  border-width: medium;
+  border-color: rgb(226, 202, 19);
+  color: rgb(218, 184, 15);
+}
+.valu:hover{
+  background-color: rgb(218, 184, 15);
+  color: black;
+  border: none;
+}
+.calculotor {
+  width: 400px;
+  height: 130px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(7, 155, 34, 0.825);
+  border-radius: 5px;
+}
+.calculotor p {
+  margin-left: 5px;
+}
+.buton_un {
+  width: 380px;
+  height: 25px;
+  margin-left: 5px;
+  border-color: rgba(7, 155, 34, 0.825);
+  background-color: white;
+}
+.calculate {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px;
+  border-color: rgba(7, 155, 34, 0.825);
+  color: rgba(7, 155, 34, 0.825);
+  border-radius: 5px;
+}
+.calculate:hover{
+  background-color:  rgba(7, 155, 34, 0.825);
+  color: white;
+  border: none;
+}
+.test {
+  margin-top: 10px;
+  width: 400px;
+  height: 210px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(228, 81, 81);
+  border-radius: 5px;
+}
+.buton_deux {
+  width: 380px;
+  height: 25px;
+  margin-left: 5px;
+  border-color: rgb(228, 81, 81);
+  background-color: white;
+}
+.buton_trois {
+  width: 380px;
+  height: 25px;
+  margin-left: 5px;
+  border-color: rgb(228, 81, 81);
+  background-color: white;
+}
+.expense {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px;
+  border-color: rgb(228, 81, 81);
+  color: rgb(228, 81, 81);
+}
+.expense:hover{
+  background-color:  rgb(228, 81, 81);
+  color: white;
+  border: none;
+}
+.test p {
+  margin-left: 5px;
+}
+.cont2 i {
+  font-size: 50px;
+   color: #2f93ac;
+}
+.buton_quatre {
+  width: 380px;
+}
+.buton_quatre:hover{
+  background-color: #a1a7ab;
+  color: #e9eef2;
+}
+/* .cont2{
+  margin-left: 4rem;
+  font-weight: bold;
+} */
+.history hr{
+  height: 200px;
+ 
+  margin-top: 3rem;
+}
+#montant_budget{
+  color: #2f93ac;
+}
+#montant_expense{
+  color: #2f93ac;
+}
+#montant_expense{
+  color: #b3061d;
+}
+#montant_balance{
+  color: #2f93ac;
+}
+.balance hr{
+  width: 20rem;
+  margin-left: -15rem;
+}
+.hidden{
+  display: none;
+}
+.enregistrement{
+  width: 400px;
+  height: 3rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AjoutTache{
+  width: 400px;
+  height: 3rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #69A7A9;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.charte{
+  transform: translate(0%, -50%);
+}
+table tr td{
+  width: 200px;
+  font-weight: bold;
+}
+tbody{
+  border-color: #2bccef;
+}
+#tbody2{
+  border-color: #2bccef;
+  color: #838480;
+}
+thead{
+  border-color: #2bccef;
+}
+.bi-pencil-square{
+ font-size: 20px !important;
+  color: #0cd0f1 !important;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.bi-trash-fill{
+  font-size: 20px !important;
+  color: #dd3e4d !important;
+  cursor: pointer !important;
+}
+.mybu{
+  background-color: #dd3e4d;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  color: white;
+  margin-top: 7rem;
+}
