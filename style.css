@@ -83,6 +83,21 @@ body{
   color: white;
   border: none;
 }
+.hid{
+  display:none;
+}
+.expense2 {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px;
+  border-color: rgb(228, 81, 81);
+  color: rgb(228, 81, 81);
+}
+.expense2:hover{
+  background-color:  rgb(228, 81, 81);
+  color: white;
+  border: none;
+}
 .test p {
   margin-left: 5px;
 }
@@ -103,7 +118,6 @@ body{
 } */
 .history hr{
   height: 200px;
- 
   margin-top: 3rem;
 }
 #montant_budget{
@@ -119,7 +133,7 @@ body{
   color: #2f93ac;
 }
 .balance hr{
-  width: 20rem;
+  width: 21rem;
   margin-left: -15rem;
 }
 .hidden{

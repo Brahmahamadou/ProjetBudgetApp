@@ -19,9 +19,9 @@
 <body>
     <main>
         <div class="container d-flex">
-            <div class="container-fluid d-flex justify-content-around mt-4">
+            <div class="container d-flex justify-content-around mt-4">
                 <div class="row">
-                    <div class="col-12 col-md-4 cont1">
+                    <div class="col cont1">
                         <div class=" titre mb-4">
                             <h4>EXPENSE TRACKER</h4>
                             <button id="valu" class="valu">Reset Value</button>
@@ -37,9 +37,10 @@
                             <p>Please Enter Your Amount</p>
                             <input type="number" name="" id="amount" class="buton_trois">
                             <button class="expense" id="expense">Add Expense</button>
+                            <button class="expense2 hid" id="expense2">Add Expense</button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 cont2">
+                    <div class="col cont2">
                         <div class="d-flex justify-content-around cont4">
                             <div class="budget">
                                 <p>BUDGET</p>
@@ -75,30 +76,27 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="position-relative col-12 col-md-4 cont3">
+                    <div class="position-relative col cont3">
                         <div class="history">
-                            <button id="buton_quatre" class=" opacity-50 rounded buton_quatre">History</button>
-                            <div class="ta hidden">
-                                <table>
+                            <button id="butonquatre" class=" opacity-50 rounded buton_quatre">History</button>
+                            <div id="ta" class=" hidden">
+                                <table id="table">
                                     <thead  class="text-center ">
                                         <tr>
                                             <td class="">#</td>
-                                            <td>Expense title</td>
                                             <td></td>
-                                            <td class="">Expense Value</td>
+                                            <td  class="text-start">Expense title</td>
+                                           
+                                           
+                                            <td class="text-start">Expense Value</td>
                                         </tr>
                                     </thead>
-                                    <tbody id="tbody2" class="text-center border-2 border-end-0 border-top-0 border-start-0 ">
-                                        <tr id="">
-                                            <td class=""></td>
-                                            <td>lait</td>
-                                            <td></td>
-                                            <td class="">100f </td>
-                                          </tr>
+                                    <tbody id="tbody2" >
+                                       
                                     </tbody>
-                                    
+                                     
                                 </table>
-                                <button class="mybu w-100">Close
+                                <button id="mybu" class="mybu w-100 ">Close
                                     <i class="bi bi-arrow-up"></i>
                                 </button>
                             </div>
